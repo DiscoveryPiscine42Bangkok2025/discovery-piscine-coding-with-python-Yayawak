@@ -7,6 +7,7 @@ R...
 ..P.
 ....\
 """
+
     checkmate(board)
     board = """\
 R...

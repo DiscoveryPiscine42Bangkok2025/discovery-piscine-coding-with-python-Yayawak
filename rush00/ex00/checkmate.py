@@ -64,9 +64,19 @@ def check_line_pieces(grid, king_row, king_col):
     
     # Check all 8 directions
     directions = [
-        (-1, -1), (-1, 0), (-1, 1),  # up-left, up, up-right
-        (0, -1),           (0, 1),   # left, right
-        (1, -1),  (1, 0),  (1, 1)    # down-left, down, down-right
+        # up-left, up, up-right
+        (-1, -1), 
+        (-1, 0), 
+        (-1, 1),
+
+        # left, right
+        (0, -1),
+        (0, 1),
+
+        # down-left, down, down-right
+        (1, -1),  
+        (1, 0),  
+        (1, 1)
     ]
     
     for row_dir, col_dir in directions:
